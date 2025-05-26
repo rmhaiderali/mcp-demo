@@ -1,0 +1,13 @@
+{
+  "name": "no-llm-mcp-demo",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "boxen": "^8.0.1",
+    "mcp-client": "^1.12.3"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": false
+  }
+}
