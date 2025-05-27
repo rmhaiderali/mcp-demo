@@ -1,5 +1,4 @@
 import { MCPClient } from "mcp-client"
-import boxen from "./boxen.js"
 
 const client = new MCPClient({
   name: "Client",
@@ -13,13 +12,4 @@ await client.connect({
   env: {},
 })
 
-const tools = await client.getAllTools()
-
-console.log(boxen([tools], { title: "tools" }))
-
-const result = await client.callTool({
-  name: "get_location_by_ip",
-  arguments: { ip: "223.123.43.3" },
-})
-
-console.log(boxen([result], { title: "result" }))
+export default client

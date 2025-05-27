@@ -1,10 +1,18 @@
 {
-  "name": "no-llm-mcp-demo",
+  "name": "mcp-demo",
   "type": "module",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.0",
+    "@openrouter/ai-sdk-provider": "^0.5.0",
+    "ai": "^4.3.16",
     "boxen": "^8.0.1",
-    "mcp-client": "^1.12.3"
+    "dotenv": "^16.5.0",
+    "json-schema-to-zod": "^2.6.1",
+    "mcp-client": "^1.12.3",
+    "picocolors": "^1.1.1",
+    "prompts": "^2.4.2",
+    "validator": "^13.15.0",
+    "zod": "^3.25.28"
   },
   "prettier": {
     "semi": false,
