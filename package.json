@@ -5,7 +5,7 @@
     "@modelcontextprotocol/sdk": "^1.12.0",
     "@openrouter/ai-sdk-provider": "^0.5.0",
     "ai": "^4.3.16",
-    "boxen": "^8.0.1",
+    "boxen": "github:rmhaiderali/boxen",
     "dotenv": "^16.5.0",
     "json-schema-to-zod": "^2.6.1",
     "mcp-client": "^1.12.3",
